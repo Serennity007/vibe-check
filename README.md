@@ -168,6 +168,14 @@ Mutually exclusive items are grouped. Having 4 ESLint config files doesn't give 
 
 ---
 
+## See Also
+
+| Project | Description |
+|---------|-------------|
+| [**awesome-ai-rules**](https://github.com/OWNER/awesome-ai-rules) | 20 production-ready AI coding rules |
+| [**ai-commit**](https://github.com/OWNER/ai-commit) | `npx ai-commit` — AI writes your commit messages |
+| [**awesome-mcp-servers**](https://github.com/OWNER/awesome-mcp-servers) | MCP servers for Cursor, Claude Code, and Kimi Code |
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). PRs welcome!
