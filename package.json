@@ -31,12 +31,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OWNER/vibe-check.git"
+    "url": "git+https://github.com/liangzhengtao/vibe-check.git"
   },
   "bugs": {
-    "url": "https://github.com/OWNER/vibe-check/issues"
+    "url": "https://github.com/liangzhengtao/vibe-check/issues"
   },
-  "homepage": "https://github.com/OWNER/vibe-check#readme",
+  "homepage": "https://github.com/liangzhengtao/vibe-check#readme",
   "dependencies": {
     "chalk": "^4.1.2",
     "commander": "^11.1.0",
