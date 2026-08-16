@@ -1,0 +1,57 @@
+{
+  "name": "vibe-check",
+  "version": "1.1.0",
+  "description": "Check if your project is AI-friendly and get a vibe score. Supports Cursor, Claude Code, Kimi Code, GitHub Copilot and more.",
+  "main": "src/index.js",
+  "bin": {
+    "vibe-check": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "ai",
+    "coding",
+    "rules",
+    "cursor",
+    "claude",
+    "copilot",
+    "kimi",
+    "developer-tools",
+    "cli",
+    "code-quality",
+    "ai-friendly",
+    "linter",
+    "best-practices",
+    "typescript",
+    "testing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OWNER/vibe-check.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OWNER/vibe-check/issues"
+  },
+  "homepage": "https://github.com/OWNER/vibe-check#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "ora": "^5.4.1",
+    "boxen": "^5.1.2",
+    "gradient-string": "^2.0.2",
+    "figures": "^3.2.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "LICENSE",
+    "README.md"
+  ]
+}
