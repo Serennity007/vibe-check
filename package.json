@@ -1,5 +1,5 @@
 {
-  "name": "vibe-check",
+  "name": "@liangzhengtao/vibe-check",
   "version": "1.1.0",
   "description": "Check if your project is AI-friendly and get a vibe score. Supports Cursor, Claude Code, Kimi Code, GitHub Copilot and more.",
   "main": "src/index.js",
