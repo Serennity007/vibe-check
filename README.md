@@ -2,13 +2,13 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:6e40c9&height=200&text=vibe-check%20%7C%20%E6%B0%9B%E5%9B%B4%E6%A3%80%E6%9F%A5%20%7C%20%E3%83%90%E3%82%A4%E3%83%96%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF&fontColor=00d4ff&fontSize=35&fontAlignY=35&desc=AI-Readiness%20Scanner%20for%20Your%20Project&descSize=15&descAlignY=55&descAlign=50&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:6e40c9&height=200&text=Vibe%20Check%20%7C%20%E6%B0%9B%E5%9B%B4%E6%A3%80%E6%9F%A5%20%7C%20%E3%83%90%E3%82%A4%E3%83%96%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF%20%7C%20V%C3%A9rification%20Vibes%20%7C%20Verificaci%C3%B3n%20de%20Ambiente%20%7C%20%D9%81%D8%AD%D8%B5%20%D8%A7%D9%84%D8%A3%D8%AC%D9%88%D8%A7%D8%A1&fontColor=00d4ff&fontSize=28&fontAlignY=35&desc=AI-Readiness%20Scanner%20for%20Your%20Project&descSize=15&descAlignY=55&descAlign=50&animation=fadeIn" width="100%" />
 
 </div>
 
 <div align="center">
 
-# 🎯 Vibe Check | 氛围检查 | バイブチェック
+# 🎯 Vibe Check | 氛围检查 | バイブチェック | Vérification Vibes | Verificación de Ambiente | فحص الأجواء
 
 ### `npx vibe-check` — Is your project AI-ready?
 
