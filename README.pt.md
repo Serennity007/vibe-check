@@ -11,10 +11,10 @@
 
 <div align="center">
 
-### `npx vibe-check` — Is your project AI-ready?
+### `npx vibe-check` — Seu projeto está pronto para IA?
 
-**Instantly score how well your project is configured for AI coding assistants.**
-One command. Zero config. Actionable results.
+**Avalie instantaneamente o quão bem configurado está seu projeto para assistentes de IA.**
+Um comando. Zero configuração. Resultados práticos.
 
 [![npm](https://img.shields.io/npm/v/vibe-check.svg)](https://www.npmjs.com/package/vibe-check)
 [![Downloads](https://img.shields.io/npm/dm/vibe-check.svg)](https://www.npmjs.com/package/vibe-check)
@@ -50,24 +50,24 @@ $ npx vibe-check
 
 ---
 
-## Why Vibe Check?
+## Por que Vibe Check?
 
-AI coding assistants (Cursor, Claude Code, Copilot, Kimi Code) generate **significantly better code** when your project has proper configuration — rules files, TypeScript, testing, linting. But most projects are missing half of these.
+Assistentes de código com IA (Cursor, Claude Code, Copilot, Kimi Code) geram **código significativamente melhor** quando seu projeto possui configurações adequadas — arquivos de regras, TypeScript, testes, linting. Mas a maioria dos projetos está faltando metade disso.
 
-**Vibe Check** scans your project in seconds and gives you a 0–100 score with specific recommendations.
+**Vibe Check** escaneia seu projeto em segundos e dá uma pontuação de 0 a 100 com recomendações específicas.
 
-| Grade | Score | Meaning |
-|:-----:|:-----:|---------|
-| 🏆 S | 90–100 | Perfect — your project is a gold standard |
-| ✨ A | 75–89 | Great — minor improvements possible |
-| 👍 B | 60–74 | Good — a few gaps to fill |
-| 🔧 C | 40–59 | Fair — significant room for improvement |
-| ⚠️ D | 20–39 | Needs work — AI assistants are underperforming |
-| ❌ F | 0–19 | Poor — major configuration missing |
+| Nota | Pontuação | Significado |
+|:----:|:---------:|-------------|
+| 🏆 S | 90–100 | Perfeito — seu projeto é referência |
+| ✨ A | 75–89 | Ótimo — melhorias menores possíveis |
+| 👍 B | 60–74 | Bom — algumas lacunas a preencher |
+| 🔧 C | 40–59 | Regular — bastante espaço para melhoria |
+| ⚠️ D | 20–39 | Precisa melhorar — assistentes IA com baixo desempenho |
+| ❌ F | 0–19 | Fraco — configurações principais ausentes |
 
 ---
 
-## Quick Start
+## Início Rápido
 
 ```bash
 # No install required
@@ -85,25 +85,25 @@ npx vibe-check --json
 
 ---
 
-## What It Checks
+## O que é verificado
 
-7 categories. **Mutually exclusive checks** (e.g., ESLint config formats) are grouped — only the best match counts.
+7 categorias. **Verificações mutuamente exclusivas** (ex: formatos de config ESLint) são agrupadas — apenas a melhor correspondência conta.
 
-| Category | Max | What's Checked |
-|----------|:---:|----------------|
-| 🤖 AI Rules | 26 | `.cursorrules`, `CLAUDE.md`, `AGENTS.md`, Copilot, Windsurf, Cline |
-| 📚 Documentation | 15 | `README`, `CONTRIBUTING`, `CHANGELOG`, `docs/` |
-| 🔒 Type Safety | 10 | `tsconfig.json`, `types/`, `.d.ts` files |
-| 🧪 Testing | 6 | Jest/Vitest/Mocha/Cypress/Playwright + test directories |
-| ✨ Code Quality | 10 | ESLint + Prettier (any format) + EditorConfig + Stylelint |
+| Categoria | Máx | O que é verificado |
+|-----------|:---:|-------------------|
+| 🤖 Regras de IA | 26 | `.cursorrules`, `CLAUDE.md`, `AGENTS.md`, Copilot, Windsurf, Cline |
+| 📚 Documentação | 15 | `README`, `CONTRIBUTING`, `CHANGELOG`, `docs/` |
+| 🔒 Segurança de Tipos | 10 | `tsconfig.json`, `types/`, arquivos `.d.ts` |
+| 🧪 Testes | 6 | Jest/Vitest/Mocha/Cypress/Playwright + diretórios de teste |
+| ✨ Qualidade de Código | 10 | ESLint + Prettier (qualquer formato) + EditorConfig + Stylelint |
 | 🔄 Git & CI/CD | 9 | GitHub Actions/GitLab CI + Husky + `.gitignore` |
-| 📦 Dependencies | 8 | Lockfiles per language (JS, Python, Rust, Go) |
+| 📦 Dependências | 8 | Arquivos de lock por linguagem (JS, Python, Rust, Go) |
 
-**Total: 84 points** → normalized to 0–100.
+**Total: 84 pontos** → normalizado para 0–100.
 
 ---
 
-## Options
+## Opções
 
 ```
 vibe-check [options] [directory]
@@ -117,7 +117,7 @@ Options:
   -V, --version          Display version
 ```
 
-### CI Integration
+### Integração com CI
 
 ```yaml
 # GitHub Actions
@@ -134,7 +134,7 @@ vibe-check:
 
 ---
 
-## How to Improve Your Score
+## Como Melhorar Sua Pontuação
 
 ```bash
 # 1. Add AI rules (biggest impact — up to 26 points)
@@ -163,33 +163,33 @@ npx gitignore node
 
 ## FAQ
 
-**Does this modify my project?**
-No. Vibe-check is 100% read-only.
+**Isso modifica meu projeto?**
+Não. Vibe-check é 100% somente leitura.
 
-**What languages does it support?**
-All of them. It checks for universal tooling (TypeScript, ESLint, testing, CI) that works with any language.
+**Quais linguagens suporta?**
+Todas. Verifica ferramentas universais (TypeScript, ESLint, testes, CI) que funcionam com qualquer linguagem.
 
-**Can I use this in CI?**
-Yes! `npx vibe-check --min-score 70` exits with code 1 if the score is below the threshold. Perfect for PR checks.
+**Posso usar no CI?**
+Sim! `npx vibe-check --min-score 70` sai com código 1 se a pontuação estiver abaixo do limite. Perfeito para verificações de PR.
 
-**Why is my score lower than expected?**
-Mutually exclusive items are grouped. Having 4 ESLint config files doesn't give more points than having 1 — only the format you actually use counts.
+**Por que minha pontuação é menor que o esperado?**
+Itens mutuamente exclusivos são agrupados. Ter 4 arquivos de config ESLint não dá mais pontos que ter 1 — apenas o formato que você realmente usa conta.
 
 ---
 
-## See Also
+## Veja Também
 
-| Project | Description |
-|---------|-------------|
-| [**awesome-ai-rules**](https://github.com/liangzhengtao/awesome-ai-rules) | 20 production AI coding rules |
-| [**ai-commit**](https://github.com/liangzhengtao/ai-commit) | `npx ai-commit` — AI writes your commit messages |
-| [**awesome-mcp-servers**](https://github.com/liangzhengtao/awesome-mcp-servers) | MCP servers for Cursor, Claude Code, and Kimi Code |
+| Projeto | Descrição |
+|---------|-----------|
+| [**awesome-ai-rules**](https://github.com/liangzhengtao/awesome-ai-rules) | 20 regras de IA para produção |
+| [**ai-commit**](https://github.com/liangzhengtao/ai-commit) | `npx ai-commit` — IA escreve suas mensagens de commit |
+| [**awesome-mcp-servers**](https://github.com/liangzhengtao/awesome-mcp-servers) | Servidores MCP para Cursor, Claude Code e Kimi Code |
 
-## Contributing
+## Contribuindo
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). PRs welcome!
+Veja [CONTRIBUTING.md](CONTRIBUTING.md). PRs são bem-vindos!
 
-## License
+## Licença
 
 [MIT](LICENSE)
 
@@ -197,7 +197,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). PRs welcome!
 
 <div align="center">
 
-**Found this useful? Give it a ⭐**
+**Achou útil? Dê uma ⭐**
 
 </div>
 
