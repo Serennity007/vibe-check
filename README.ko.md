@@ -11,19 +11,19 @@
 
 <div align="center">
 
-### `npx vibe-check` — 프로젝트가 AI 준비가 되었나요?
+### `npx @liangzhengtao/vibe-check` — 프로젝트가 AI 준비가 되었나요?
 
 **프로젝트의 AI 코딩 어시스턴트 준비 상태를 즉시 점수로 확인하세요.**
 명령어 하나. 설정 없음. 실행 가능한 결과.
 
-[![npm](https://img.shields.io/npm/v/vibe-check.svg)](https://www.npmjs.com/package/vibe-check)
-[![Downloads](https://img.shields.io/npm/dm/vibe-check.svg)](https://www.npmjs.com/package/vibe-check)
+[![npm](https://img.shields.io/npm/v/@liangzhengtao/vibe-check.svg)](https://www.npmjs.com/package/@liangzhengtao/vibe-check)
+[![Downloads](https://img.shields.io/npm/dm/@liangzhengtao/vibe-check.svg)](https://www.npmjs.com/package/@liangzhengtao/vibe-check)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 </div>
 
 ```bash
-$ npx vibe-check
+$ npx @liangzhengtao/vibe-check
 
 ╔══════════════════════════════════════════════════════════════╗
 ║                    VIBE CHECK RESULTS                       ║
@@ -71,16 +71,16 @@ AI 코딩 어시스턴트(Cursor, Claude Code, Copilot, Kimi Code)는 프로젝�
 
 ```bash
 # No install required
-npx vibe-check
+npx @liangzhengtao/vibe-check
 
 # Check a specific project
-npx vibe-check /path/to/project
+npx @liangzhengtao/vibe-check /path/to/project
 
 # CI mode — fail the build if score < 70
-npx vibe-check --min-score 70
+npx @liangzhengtao/vibe-check --min-score 70
 
 # JSON output for scripts
-npx vibe-check --json
+npx @liangzhengtao/vibe-check --json
 ```
 
 ---
@@ -122,14 +122,14 @@ Options:
 ```yaml
 # GitHub Actions
 - name: Check AI-friendliness
-  run: npx vibe-check --min-score 60 --json
+  run: npx @liangzhengtao/vibe-check --min-score 60 --json
 ```
 
 ```yaml
 # GitLab CI
 vibe-check:
   script:
-    - npx vibe-check --min-score 60
+    - npx @liangzhengtao/vibe-check --min-score 60
 ```
 
 ---
@@ -170,7 +170,7 @@ npx gitignore node
 모든 언어. 모든 언어에서 작동하는 범용 도구(TypeScript, ESLint, 테스트, CI)를 검사합니다.
 
 **CI에서 사용할 수 있나요?**
-네! `npx vibe-check --min-score 70`은 점수가 임계값 미만이면 코드 1로 종료됩니다. PR 검사에 완벽합니다.
+네! `npx @liangzhengtao/vibe-check --min-score 70`은 점수가 임계값 미만이면 코드 1로 종료됩니다. PR 검사에 완벽합니다.
 
 **예상보다 점수가 낮은 이유는?**
 상호 배타적 항목이 그룹화됩니다. ESLint 설정 파일이 4개 있어도 1개보다 더 많은 점수를 얻지 못합니다 — 실제로 사용하는 형식만 카운트됩니다.
@@ -182,7 +182,7 @@ npx gitignore node
 | 프로젝트 | 설명 |
 |---------|------|
 | [**awesome-ai-rules**](https://github.com/Serennity007/awesome-ai-rules) | 20개 프로덕션 AI 코딩 규칙 |
-| [**ai-commit**](https://github.com/Serennity007/ai-commit) | `npx ai-commit` — AI가 커밋 메시지를 작성 |
+| [**ai-commit**](https://github.com/Serennity007/ai-commit) | `npx @liangzhengtao/commit-ai` — AI가 커밋 메시지를 작성 |
 | [**awesome-mcp-servers**](https://github.com/Serennity007/awesome-mcp-servers) | Cursor, Claude Code, Kimi Code용 MCP 서버 |
 
 ## 기여하기

@@ -10,20 +10,20 @@
 
 # 🎯 Vibe Check | 氛围检查 | バイブチェック | Vérification Vibes | Verificación de Ambiente | فحص الأجواء
 
-### `npx vibe-check` — Is your project AI-ready?
+### `npx @liangzhengtao/vibe-check` — Is your project AI-ready?
 
 **Instantly score how well your project is configured for AI coding assistants.**
 One command. Zero config. Actionable results.
 
-[![npm version](https://img.shields.io/npm/v/vibe-check.svg?style=for-the-badge&logo=npm&color=00d4ff)](https://www.npmjs.com/package/vibe-check)
-[![Downloads](https://img.shields.io/npm/dm/vibe-check.svg?style=for-the-badge&logo=npm&color=00d4ff)](https://www.npmjs.com/package/vibe-check)
+[![npm version](https://img.shields.io/npm/v/@liangzhengtao/vibe-check.svg?style=for-the-badge&logo=npm&color=00d4ff)](https://www.npmjs.com/package/@liangzhengtao/vibe-check)
+[![Downloads](https://img.shields.io/npm/dm/@liangzhengtao/vibe-check.svg?style=for-the-badge&logo=npm&color=00d4ff)](https://www.npmjs.com/package/@liangzhengtao/vibe-check)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge&color=6e40c9)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/Serennity007/vibe-check?style=for-the-badge&logo=github&color=00d4ff)](https://github.com/Serennity007/vibe-check)
 
 </div>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Serennity007/vibe-check/main/.github/demo.svg" width="100%" alt="vibe-check animated terminal demo: npx vibe-check scores project AI-readiness 83/100" />
+<img src="https://raw.githubusercontent.com/Serennity007/vibe-check/main/.github/demo.svg" width="100%" alt="vibe-check animated terminal demo: npx @liangzhengtao/vibe-check scores project AI-readiness 83/100" />
 </div>
 
 ---
@@ -63,16 +63,16 @@ AI coding assistants (Cursor, Claude Code, Copilot, Kimi Code) generate **signif
 
 ```bash
 # No install required
-npx vibe-check
+npx @liangzhengtao/vibe-check
 
 # Check a specific project
-npx vibe-check /path/to/project
+npx @liangzhengtao/vibe-check /path/to/project
 
 # CI mode — fail the build if score < 70
-npx vibe-check --min-score 70
+npx @liangzhengtao/vibe-check --min-score 70
 
 # JSON output for scripts
-npx vibe-check --json
+npx @liangzhengtao/vibe-check --json
 ```
 
 ---
@@ -114,14 +114,14 @@ Options:
 ```yaml
 # GitHub Actions
 - name: Check AI-friendliness
-  run: npx vibe-check --min-score 60 --json
+  run: npx @liangzhengtao/vibe-check --min-score 60 --json
 ```
 
 ```yaml
 # GitLab CI
 vibe-check:
   script:
-    - npx vibe-check --min-score 60
+    - npx @liangzhengtao/vibe-check --min-score 60
 ```
 
 ---
@@ -162,7 +162,7 @@ No. Vibe-check is 100% read-only.
 All of them. It checks for universal tooling (TypeScript, ESLint, testing, CI) that works with any language.
 
 **Can I use this in CI?**
-Yes! `npx vibe-check --min-score 70` exits with code 1 if the score is below the threshold. Perfect for PR checks.
+Yes! `npx @liangzhengtao/vibe-check --min-score 70` exits with code 1 if the score is below the threshold. Perfect for PR checks.
 
 **Why is my score lower than expected?**
 Mutually exclusive items are grouped. Having 4 ESLint config files doesn't give more points than having 1 — only the format you actually use counts.
@@ -174,8 +174,8 @@ Mutually exclusive items are grouped. Having 4 ESLint config files doesn't give 
 | Project | Description |
 |---------|-------------|
 | [**agent-trace**](https://github.com/Serennity007/agent-trace) | Visualize and debug AI agent execution traces |
-| [**ai-commit**](https://github.com/Serennity007/ai-commit) | `npx ai-commit` — AI writes your commit messages |
-| [**git-format**](https://github.com/Serennity007/git-format) | `npx git-format` — Conventional commits, auto-formatted |
+| [**ai-commit**](https://github.com/Serennity007/ai-commit) | `npx @liangzhengtao/commit-ai` — AI writes your commit messages |
+| [**git-format**](https://github.com/Serennity007/git-format) | `npx @liangzhengtao/git-format` — Conventional commits, auto-formatted |
 | [**awesome-ai-rules**](https://github.com/Serennity007/awesome-ai-rules) | 20 production AI coding rules |
 
 ---

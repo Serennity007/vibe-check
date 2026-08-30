@@ -11,19 +11,19 @@
 
 <div align="center">
 
-### `npx vibe-check` — Готов ли ваш проект к ИИ?
+### `npx @liangzhengtao/vibe-check` — Готов ли ваш проект к ИИ?
 
 **Мгновенно оцените, насколько хорошо ваш проект настроен для ИИ-ассистентов.**
 Одна команда. Никаких настроек. Конкретные результаты.
 
-[![npm](https://img.shields.io/npm/v/vibe-check.svg)](https://www.npmjs.com/package/vibe-check)
-[![Downloads](https://img.shields.io/npm/dm/vibe-check.svg)](https://www.npmjs.com/package/vibe-check)
+[![npm](https://img.shields.io/npm/v/@liangzhengtao/vibe-check.svg)](https://www.npmjs.com/package/@liangzhengtao/vibe-check)
+[![Downloads](https://img.shields.io/npm/dm/@liangzhengtao/vibe-check.svg)](https://www.npmjs.com/package/@liangzhengtao/vibe-check)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 </div>
 
 ```bash
-$ npx vibe-check
+$ npx @liangzhengtao/vibe-check
 
 ╔══════════════════════════════════════════════════════════════╗
 ║                    VIBE CHECK RESULTS                       ║
@@ -71,16 +71,16 @@ $ npx vibe-check
 
 ```bash
 # No install required
-npx vibe-check
+npx @liangzhengtao/vibe-check
 
 # Check a specific project
-npx vibe-check /path/to/project
+npx @liangzhengtao/vibe-check /path/to/project
 
 # CI mode — fail the build if score < 70
-npx vibe-check --min-score 70
+npx @liangzhengtao/vibe-check --min-score 70
 
 # JSON output for scripts
-npx vibe-check --json
+npx @liangzhengtao/vibe-check --json
 ```
 
 ---
@@ -122,14 +122,14 @@ Options:
 ```yaml
 # GitHub Actions
 - name: Check AI-friendliness
-  run: npx vibe-check --min-score 60 --json
+  run: npx @liangzhengtao/vibe-check --min-score 60 --json
 ```
 
 ```yaml
 # GitLab CI
 vibe-check:
   script:
-    - npx vibe-check --min-score 60
+    - npx @liangzhengtao/vibe-check --min-score 60
 ```
 
 ---
@@ -170,7 +170,7 @@ npx gitignore node
 Все. Проверяются универсальные инструменты (TypeScript, ESLint, тесты, CI), работающие с любым языком.
 
 **Можно ли использовать в CI?**
-Да! `npx vibe-check --min-score 70` завершается с кодом 1, если оценка ниже порога. Идеально для PR-проверок.
+Да! `npx @liangzhengtao/vibe-check --min-score 70` завершается с кодом 1, если оценка ниже порога. Идеально для PR-проверок.
 
 **Почему моя оценка ниже ожидаемой?**
 Взаимоисключающие пункты сгруппированы. Наличие 4 конфигов ESLint не даёт больше очков, чем наличие 1 — учитывается только реально используемый формат.
@@ -182,7 +182,7 @@ npx gitignore node
 | Проект | Описание |
 |--------|----------|
 | [**awesome-ai-rules**](https://github.com/Serennity007/awesome-ai-rules) | 20 production-ready ИИ-правил для кодинга |
-| [**ai-commit**](https://github.com/Serennity007/ai-commit) | `npx ai-commit` — ИИ пишет сообщения коммитов |
+| [**ai-commit**](https://github.com/Serennity007/ai-commit) | `npx @liangzhengtao/commit-ai` — ИИ пишет сообщения коммитов |
 | [**awesome-mcp-servers**](https://github.com/Serennity007/awesome-mcp-servers) | MCP-серверы для Cursor, Claude Code и Kimi Code |
 
 ## Участие

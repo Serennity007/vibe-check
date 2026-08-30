@@ -4,19 +4,19 @@
 
 <div align="center">
 
-### `npx vibe-check` — 你的项目对 AI 友好吗？
+### `npx @liangzhengtao/vibe-check` — 你的项目对 AI 友好吗？
 
 **一键检测你的项目是否为 AI 编程助手做好了配置。**
 一条命令。零配置。立即出结果。
 
-[![npm](https://img.shields.io/npm/v/vibe-check.svg)](https://www.npmjs.com/package/vibe-check)
-[![Downloads](https://img.shields.io/npm/dm/vibe-check.svg)](https://www.npmjs.com/package/vibe-check)
+[![npm](https://img.shields.io/npm/v/@liangzhengtao/vibe-check.svg)](https://www.npmjs.com/package/@liangzhengtao/vibe-check)
+[![Downloads](https://img.shields.io/npm/dm/@liangzhengtao/vibe-check.svg)](https://www.npmjs.com/package/@liangzhengtao/vibe-check)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 </div>
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/Serennity007/vibe-check/main/.github/demo.svg" width="100%" alt="vibe-check animated terminal demo: npx vibe-check scores project AI-readiness 83/100" />
+<img src="https://raw.githubusercontent.com/Serennity007/vibe-check/main/.github/demo.svg" width="100%" alt="vibe-check animated terminal demo: npx @liangzhengtao/vibe-check scores project AI-readiness 83/100" />
 </div>
 
 ---
@@ -42,16 +42,16 @@ AI 编程助手（Cursor、Claude Code、Copilot、Kimi Code）在你的项目�
 
 ```bash
 # 无需安装
-npx vibe-check
+npx @liangzhengtao/vibe-check
 
 # 检测指定项目
-npx vibe-check /path/to/project
+npx @liangzhengtao/vibe-check /path/to/project
 
 # CI 模式 — 得分低于 70 则构建失败
-npx vibe-check --min-score 70
+npx @liangzhengtao/vibe-check --min-score 70
 
 # JSON 格式输出，方便脚本处理
-npx vibe-check --json
+npx @liangzhengtao/vibe-check --json
 ```
 
 ---
@@ -93,14 +93,14 @@ Options:
 ```yaml
 # GitHub Actions
 - name: Check AI-friendliness
-  run: npx vibe-check --min-score 60 --json
+  run: npx @liangzhengtao/vibe-check --min-score 60 --json
 ```
 
 ```yaml
 # GitLab CI
 vibe-check:
   script:
-    - npx vibe-check --min-score 60
+    - npx @liangzhengtao/vibe-check --min-score 60
 ```
 
 ---
@@ -141,7 +141,7 @@ npx gitignore node
 所有语言。它检测的是通用工具链（TypeScript、ESLint、测试、CI），这些对任何语言都适用。
 
 **可以在 CI 中使用吗？**
-可以！`npx vibe-check --min-score 70` 在得分低于阈值时会返回退出码 1，非常适合用于 PR 检查。
+可以！`npx @liangzhengtao/vibe-check --min-score 70` 在得分低于阈值时会返回退出码 1，非常适合用于 PR 检查。
 
 **为什么我的分数比预期低？**
 互斥项会被归组。有 4 个 ESLint 配置文件并不比有 1 个得更多分——只有你实际使用的格式才会被计分。
@@ -153,7 +153,7 @@ npx gitignore node
 | 项目 | 说明 |
 |------|------|
 | [**awesome-ai-rules**](https://github.com/Serennity007/awesome-ai-rules) | 20 个开箱即用的 AI 编程规则 |
-| [**ai-commit**](https://github.com/Serennity007/ai-commit) | `npx ai-commit` — AI 帮你写 commit 信息 |
+| [**ai-commit**](https://github.com/Serennity007/ai-commit) | `npx @liangzhengtao/commit-ai` — AI 帮你写 commit 信息 |
 | [**awesome-mcp-servers**](https://github.com/Serennity007/awesome-mcp-servers) | 适用于 Cursor、Claude Code 和 Kimi Code 的 MCP 服务器 |
 
 ## 参与贡献

@@ -11,19 +11,19 @@
 
 <div align="center">
 
-### `npx vibe-check` — Ist Ihr Projekt KI-ready?
+### `npx @liangzhengtao/vibe-check` — Ist Ihr Projekt KI-ready?
 
 **Bewerten Sie sofort, wie gut Ihr Projekt für KI-Coding-Assistenten konfiguriert ist.**
 Ein Befehl. Keine Konfiguration. Umsetzbare Ergebnisse.
 
-[![npm](https://img.shields.io/npm/v/vibe-check.svg)](https://www.npmjs.com/package/vibe-check)
-[![Downloads](https://img.shields.io/npm/dm/vibe-check.svg)](https://www.npmjs.com/package/vibe-check)
+[![npm](https://img.shields.io/npm/v/@liangzhengtao/vibe-check.svg)](https://www.npmjs.com/package/@liangzhengtao/vibe-check)
+[![Downloads](https://img.shields.io/npm/dm/@liangzhengtao/vibe-check.svg)](https://www.npmjs.com/package/@liangzhengtao/vibe-check)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 </div>
 
 ```bash
-$ npx vibe-check
+$ npx @liangzhengtao/vibe-check
 
 ╔══════════════════════════════════════════════════════════════╗
 ║                    VIBE CHECK RESULTS                       ║
@@ -71,16 +71,16 @@ KI-Coding-Assistenten (Cursor, Claude Code, Copilot, Kimi Code) erzeugen **deutl
 
 ```bash
 # No install required
-npx vibe-check
+npx @liangzhengtao/vibe-check
 
 # Check a specific project
-npx vibe-check /path/to/project
+npx @liangzhengtao/vibe-check /path/to/project
 
 # CI mode — fail the build if score < 70
-npx vibe-check --min-score 70
+npx @liangzhengtao/vibe-check --min-score 70
 
 # JSON output for scripts
-npx vibe-check --json
+npx @liangzhengtao/vibe-check --json
 ```
 
 ---
@@ -122,14 +122,14 @@ Options:
 ```yaml
 # GitHub Actions
 - name: Check AI-friendliness
-  run: npx vibe-check --min-score 60 --json
+  run: npx @liangzhengtao/vibe-check --min-score 60 --json
 ```
 
 ```yaml
 # GitLab CI
 vibe-check:
   script:
-    - npx vibe-check --min-score 60
+    - npx @liangzhengtao/vibe-check --min-score 60
 ```
 
 ---
@@ -170,7 +170,7 @@ Nein. Vibe-check ist 100% schreibgeschützt.
 Alle. Es prüft universelle Werkzeuge (TypeScript, ESLint, Tests, CI), die mit jeder Sprache funktionieren.
 
 **Kann ich es in CI verwenden?**
-Ja! `npx vibe-check --min-score 70` endet mit Exit-Code 1, wenn die Bewertung unter dem Schwellenwert liegt. Perfekt für PR-Prüfungen.
+Ja! `npx @liangzhengtao/vibe-check --min-score 70` endet mit Exit-Code 1, wenn die Bewertung unter dem Schwellenwert liegt. Perfekt für PR-Prüfungen.
 
 **Warum ist meine Bewertung niedriger als erwartet?**
 Sich gegenseitig ausschließende Punkte sind gruppiert. 4 ESLint-Konfigurationsdateien bringen nicht mehr Punkte als 1 — nur das tatsächlich verwendete Format zählt.
@@ -182,7 +182,7 @@ Sich gegenseitig ausschließende Punkte sind gruppiert. 4 ESLint-Konfigurationsd
 | Projekt | Beschreibung |
 |---------|--------------|
 | [**awesome-ai-rules**](https://github.com/Serennity007/awesome-ai-rules) | 20 produktionsreife KI-Coding-Regeln |
-| [**ai-commit**](https://github.com/Serennity007/ai-commit) | `npx ai-commit` — KI schreibt Ihre Commit-Nachrichten |
+| [**ai-commit**](https://github.com/Serennity007/ai-commit) | `npx @liangzhengtao/commit-ai` — KI schreibt Ihre Commit-Nachrichten |
 | [**awesome-mcp-servers**](https://github.com/Serennity007/awesome-mcp-servers) | MCP-Server für Cursor, Claude Code und Kimi Code |
 
 ## Mitwirken

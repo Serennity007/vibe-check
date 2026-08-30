@@ -11,19 +11,19 @@
 
 <div align="center">
 
-### `npx vibe-check` — あなたのプロジェクトは AI 対応できていますか？
+### `npx @liangzhengtao/vibe-check` — あなたのプロジェクトは AI 対応できていますか？
 
 **AI コーディングアシスタント向けの設定状況を瞬時にスコアリング。**
 1コマンド。設定不要。すぐ使える結果。
 
-[![npm](https://img.shields.io/npm/v/vibe-check.svg)](https://www.npmjs.com/package/vibe-check)
-[![Downloads](https://img.shields.io/npm/dm/vibe-check.svg)](https://www.npmjs.com/package/vibe-check)
+[![npm](https://img.shields.io/npm/v/@liangzhengtao/vibe-check.svg)](https://www.npmjs.com/package/@liangzhengtao/vibe-check)
+[![Downloads](https://img.shields.io/npm/dm/@liangzhengtao/vibe-check.svg)](https://www.npmjs.com/package/@liangzhengtao/vibe-check)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 </div>
 
 ```bash
-$ npx vibe-check
+$ npx @liangzhengtao/vibe-check
 
 ╔══════════════════════════════════════════════════════════════╗
 ║                    VIBE CHECK RESULTS                       ║
@@ -71,16 +71,16 @@ AI コーディングアシスタント（Cursor、Claude Code、Copilot、Kimi 
 
 ```bash
 # インストール不要
-npx vibe-check
+npx @liangzhengtao/vibe-check
 
 # 特定のプロジェクトをチェック
-npx vibe-check /path/to/project
+npx @liangzhengtao/vibe-check /path/to/project
 
 # CI モード — スコアが 70 未満ならビルド失敗
-npx vibe-check --min-score 70
+npx @liangzhengtao/vibe-check --min-score 70
 
 # スクリプト向け JSON 出力
-npx vibe-check --json
+npx @liangzhengtao/vibe-check --json
 ```
 
 ---
@@ -122,14 +122,14 @@ Options:
 ```yaml
 # GitHub Actions
 - name: Check AI-friendliness
-  run: npx vibe-check --min-score 60 --json
+  run: npx @liangzhengtao/vibe-check --min-score 60 --json
 ```
 
 ```yaml
 # GitLab CI
 vibe-check:
   script:
-    - npx vibe-check --min-score 60
+    - npx @liangzhengtao/vibe-check --min-score 60
 ```
 
 ---
@@ -170,7 +170,7 @@ npx gitignore node
 すべての言語です。TypeScript、ESLint、テスト、CI など、あらゆる言語で動作するユニバーサルなツールをチェックします。
 
 **CI で使えますか？**
-はい！`npx vibe-check --min-score 70` はスコアがしきい値未満の場合に終了コード 1 を返します。PR チェックに最適です。
+はい！`npx @liangzhengtao/vibe-check --min-score 70` はスコアがしきい値未満の場合に終了コード 1 を返します。PR チェックに最適です。
 
 **スコアが思ったより低いのはなぜですか？**
 排他項目はグループ化されます。ESLint 設定ファイルが4つあっても1つの場合と同じポイントしか得られません — 実際に使用しているフォーマットのみがカウントされます。
@@ -182,7 +182,7 @@ npx gitignore node
 | プロジェクト | 説明 |
 |---------|-------------|
 | [**awesome-ai-rules**](https://github.com/Serennity007/awesome-ai-rules) | 20 のプロダクション向け AI コーディングルール |
-| [**ai-commit**](https://github.com/Serennity007/ai-commit) | `npx ai-commit` — AI がコミットメッセージを生成 |
+| [**ai-commit**](https://github.com/Serennity007/ai-commit) | `npx @liangzhengtao/commit-ai` — AI がコミットメッセージを生成 |
 | [**awesome-mcp-servers**](https://github.com/Serennity007/awesome-mcp-servers) | Cursor、Claude Code、Kimi Code 向け MCP サーバー |
 
 ## コントリビューション

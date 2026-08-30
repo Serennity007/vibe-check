@@ -11,19 +11,19 @@
 
 <div align="center">
 
-### `npx vibe-check` — ¿Tu proyecto está listo para la IA?
+### `npx @liangzhengtao/vibe-check` — ¿Tu proyecto está listo para la IA?
 
 **Evalúa al instante qué tan bien configurado está tu proyecto para asistentes de codificación con IA.**
 Un comando. Cero configuración. Resultados accionables.
 
-[![npm](https://img.shields.io/npm/v/vibe-check.svg)](https://www.npmjs.com/package/vibe-check)
-[![Downloads](https://img.shields.io/npm/dm/vibe-check.svg)](https://www.npmjs.com/package/vibe-check)
+[![npm](https://img.shields.io/npm/v/@liangzhengtao/vibe-check.svg)](https://www.npmjs.com/package/@liangzhengtao/vibe-check)
+[![Downloads](https://img.shields.io/npm/dm/@liangzhengtao/vibe-check.svg)](https://www.npmjs.com/package/@liangzhengtao/vibe-check)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 </div>
 
 ```bash
-$ npx vibe-check
+$ npx @liangzhengtao/vibe-check
 
 ╔══════════════════════════════════════════════════════════════╗
 ║                    VIBE CHECK RESULTS                       ║
@@ -71,16 +71,16 @@ Los asistentes de codificación con IA (Cursor, Claude Code, Copilot, Kimi Code)
 
 ```bash
 # Sin instalación
-npx vibe-check
+npx @liangzhengtao/vibe-check
 
 # Verificar un proyecto específico
-npx vibe-check /path/to/project
+npx @liangzhengtao/vibe-check /path/to/project
 
 # Modo CI — fallo en la build si la puntuación < 70
-npx vibe-check --min-score 70
+npx @liangzhengtao/vibe-check --min-score 70
 
 # Salida JSON para scripts
-npx vibe-check --json
+npx @liangzhengtao/vibe-check --json
 ```
 
 ---
@@ -122,14 +122,14 @@ Options:
 ```yaml
 # GitHub Actions
 - name: Check AI-friendliness
-  run: npx vibe-check --min-score 60 --json
+  run: npx @liangzhengtao/vibe-check --min-score 60 --json
 ```
 
 ```yaml
 # GitLab CI
 vibe-check:
   script:
-    - npx vibe-check --min-score 60
+    - npx @liangzhengtao/vibe-check --min-score 60
 ```
 
 ---
@@ -170,7 +170,7 @@ No. Vibe Check es 100% de solo lectura.
 Todos. Verifica herramientas universales (TypeScript, ESLint, pruebas, CI) que funcionan con cualquier lenguaje.
 
 **¿Puedo usarlo en CI?**
-¡Sí! `npx vibe-check --min-score 70` sale con código 1 si la puntuación está por debajo del umbral. Perfecto para verificaciones de PR.
+¡Sí! `npx @liangzhengtao/vibe-check --min-score 70` sale con código 1 si la puntuación está por debajo del umbral. Perfecto para verificaciones de PR.
 
 **¿Por qué mi puntuación es más baja de lo esperado?**
 Los elementos mutuamente excluyentes se agrupan. Tener 4 archivos de configuración ESLint no da más puntos que tener 1 — solo cuenta el formato que realmente usas.
@@ -182,7 +182,7 @@ Los elementos mutuamente excluyentes se agrupan. Tener 4 archivos de configuraci
 | Proyecto | Descripción |
 |---------|-------------|
 | [**awesome-ai-rules**](https://github.com/Serennity007/awesome-ai-rules) | 20 reglas de codificación con IA para producción |
-| [**ai-commit**](https://github.com/Serennity007/ai-commit) | `npx ai-commit` — La IA escribe tus mensajes de commit |
+| [**ai-commit**](https://github.com/Serennity007/ai-commit) | `npx @liangzhengtao/commit-ai` — La IA escribe tus mensajes de commit |
 | [**awesome-mcp-servers**](https://github.com/Serennity007/awesome-mcp-servers) | Servidores MCP para Cursor, Claude Code y Kimi Code |
 
 ## Contribuir
