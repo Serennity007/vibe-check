@@ -181,9 +181,9 @@ npx gitignore node
 
 | プロジェクト | 説明 |
 |---------|-------------|
-| [**awesome-ai-rules**](https://github.com/liangzhengtao/awesome-ai-rules) | 20 のプロダクション向け AI コーディングルール |
-| [**ai-commit**](https://github.com/liangzhengtao/ai-commit) | `npx ai-commit` — AI がコミットメッセージを生成 |
-| [**awesome-mcp-servers**](https://github.com/liangzhengtao/awesome-mcp-servers) | Cursor、Claude Code、Kimi Code 向け MCP サーバー |
+| [**awesome-ai-rules**](https://github.com/Serennity007/awesome-ai-rules) | 20 のプロダクション向け AI コーディングルール |
+| [**ai-commit**](https://github.com/Serennity007/ai-commit) | `npx ai-commit` — AI がコミットメッセージを生成 |
+| [**awesome-mcp-servers**](https://github.com/Serennity007/awesome-mcp-servers) | Cursor、Claude Code、Kimi Code 向け MCP サーバー |
 
 ## コントリビューション
 

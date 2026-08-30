@@ -15,31 +15,9 @@
 
 </div>
 
-```bash
-$ npx vibe-check
-
-╔══════════════════════════════════════════════════════════════╗
-║                    VIBE CHECK 检测结果                       ║
-╚══════════════════════════════════════════════════════════════╝
-
-╭────────────────────────────────────────────────────────────╮
-│   ✨ 得分: 83/100 | 等级: A                                 │
-│   太棒了！你的项目非常 AI 友好。                               │
-╰────────────────────────────────────────────────────────────╯
-
-📊 详细结果:
-  AI 规则文件   [4/6]  20/26 分
-  项目文档      [4/4]  15/15 分
-  类型安全      [2/3]   8/10 分
-  测试覆盖      [2/5]   6/6  分
-  代码质量      [3/4]   8/10 分
-  Git 和 CI/CD  [3/4]   9/9  分
-  依赖管理      [2/3]   4/8  分
-
-💡 优化建议:
-  1. 为更多 AI 工具添加规则文件，提升兼容性
-  2. 添加 TypeScript 类型定义（.d.ts 文件）
-```
+<div align="center">
+<img src="https://raw.githubusercontent.com/Serennity007/vibe-check/main/.github/demo.svg" width="100%" alt="vibe-check animated terminal demo: npx vibe-check scores project AI-readiness 83/100" />
+</div>
 
 ---
 
@@ -174,9 +152,9 @@ npx gitignore node
 
 | 项目 | 说明 |
 |------|------|
-| [**awesome-ai-rules**](https://github.com/liangzhengtao/awesome-ai-rules) | 20 个开箱即用的 AI 编程规则 |
-| [**ai-commit**](https://github.com/liangzhengtao/ai-commit) | `npx ai-commit` — AI 帮你写 commit 信息 |
-| [**awesome-mcp-servers**](https://github.com/liangzhengtao/awesome-mcp-servers) | 适用于 Cursor、Claude Code 和 Kimi Code 的 MCP 服务器 |
+| [**awesome-ai-rules**](https://github.com/Serennity007/awesome-ai-rules) | 20 个开箱即用的 AI 编程规则 |
+| [**ai-commit**](https://github.com/Serennity007/ai-commit) | `npx ai-commit` — AI 帮你写 commit 信息 |
+| [**awesome-mcp-servers**](https://github.com/Serennity007/awesome-mcp-servers) | 适用于 Cursor、Claude Code 和 Kimi Code 的 MCP 服务器 |
 
 ## 参与贡献
 

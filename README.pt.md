@@ -181,9 +181,9 @@ Itens mutuamente exclusivos são agrupados. Ter 4 arquivos de config ESLint não
 
 | Projeto | Descrição |
 |---------|-----------|
-| [**awesome-ai-rules**](https://github.com/liangzhengtao/awesome-ai-rules) | 20 regras de IA para produção |
-| [**ai-commit**](https://github.com/liangzhengtao/ai-commit) | `npx ai-commit` — IA escreve suas mensagens de commit |
-| [**awesome-mcp-servers**](https://github.com/liangzhengtao/awesome-mcp-servers) | Servidores MCP para Cursor, Claude Code e Kimi Code |
+| [**awesome-ai-rules**](https://github.com/Serennity007/awesome-ai-rules) | 20 regras de IA para produção |
+| [**ai-commit**](https://github.com/Serennity007/ai-commit) | `npx ai-commit` — IA escreve suas mensagens de commit |
+| [**awesome-mcp-servers**](https://github.com/Serennity007/awesome-mcp-servers) | Servidores MCP para Cursor, Claude Code e Kimi Code |
 
 ## Contribuindo
 

@@ -181,9 +181,9 @@ npx gitignore node
 
 | Проект | Описание |
 |--------|----------|
-| [**awesome-ai-rules**](https://github.com/liangzhengtao/awesome-ai-rules) | 20 production-ready ИИ-правил для кодинга |
-| [**ai-commit**](https://github.com/liangzhengtao/ai-commit) | `npx ai-commit` — ИИ пишет сообщения коммитов |
-| [**awesome-mcp-servers**](https://github.com/liangzhengtao/awesome-mcp-servers) | MCP-серверы для Cursor, Claude Code и Kimi Code |
+| [**awesome-ai-rules**](https://github.com/Serennity007/awesome-ai-rules) | 20 production-ready ИИ-правил для кодинга |
+| [**ai-commit**](https://github.com/Serennity007/ai-commit) | `npx ai-commit` — ИИ пишет сообщения коммитов |
+| [**awesome-mcp-servers**](https://github.com/Serennity007/awesome-mcp-servers) | MCP-серверы для Cursor, Claude Code и Kimi Code |
 
 ## Участие
 

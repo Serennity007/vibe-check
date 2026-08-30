@@ -181,9 +181,9 @@ Les éléments mutuellement exclusifs sont regroupés. Avoir 4 fichiers de confi
 
 | Projet | Description |
 |---------|-------------|
-| [**awesome-ai-rules**](https://github.com/liangzhengtao/awesome-ai-rules) | 20 règles de codage IA prêtes pour la production |
-| [**ai-commit**](https://github.com/liangzhengtao/ai-commit) | `npx ai-commit` — L'IA rédige vos messages de commit |
-| [**awesome-mcp-servers**](https://github.com/liangzhengtao/awesome-mcp-servers) | Serveurs MCP pour Cursor, Claude Code et Kimi Code |
+| [**awesome-ai-rules**](https://github.com/Serennity007/awesome-ai-rules) | 20 règles de codage IA prêtes pour la production |
+| [**ai-commit**](https://github.com/Serennity007/ai-commit) | `npx ai-commit` — L'IA rédige vos messages de commit |
+| [**awesome-mcp-servers**](https://github.com/Serennity007/awesome-mcp-servers) | Serveurs MCP pour Cursor, Claude Code et Kimi Code |
 
 ## Contribuer
 

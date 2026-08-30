@@ -18,35 +18,13 @@ One command. Zero config. Actionable results.
 [![npm version](https://img.shields.io/npm/v/vibe-check.svg?style=for-the-badge&logo=npm&color=00d4ff)](https://www.npmjs.com/package/vibe-check)
 [![Downloads](https://img.shields.io/npm/dm/vibe-check.svg?style=for-the-badge&logo=npm&color=00d4ff)](https://www.npmjs.com/package/vibe-check)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge&color=6e40c9)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/liangzhengtao/vibe-check?style=for-the-badge&logo=github&color=00d4ff)](https://github.com/liangzhengtao/vibe-check)
+[![GitHub Stars](https://img.shields.io/github/stars/Serennity007/vibe-check?style=for-the-badge&logo=github&color=00d4ff)](https://github.com/Serennity007/vibe-check)
 
 </div>
 
-```bash
-$ npx vibe-check
-
-╔══════════════════════════════════════════════════════════════╗
-║                     VIBE CHECK RESULTS                      ║
-╚══════════════════════════════════════════════════════════════╝
-
-╭────────────────────────────────────────────────────────────╮
-│  ✨ Score: 83/100  |  Grade: A                             │
-│  Great! Your project is very AI-friendly.                  │
-╰────────────────────────────────────────────────────────────╯
-
-📊 Detailed Results:
-  AI Rules Files  [4/6]  20/26 points
-  Documentation   [4/4]  15/15 points
-  Type Safety     [2/3]  8/10 points
-  Testing         [2/5]  6/6 points
-  Code Quality    [3/4]  8/10 points
-  Git & CI/CD     [3/4]  9/9 points
-  Dependencies    [2/3]  4/8 points
-
-💡 Recommendations:
-  1. Add rules for more AI tools to maximize compatibility
-  2. Add TypeScript type definitions (.d.ts files)
-```
+<div align="center">
+<img src="https://raw.githubusercontent.com/Serennity007/vibe-check/main/.github/demo.svg" width="100%" alt="vibe-check animated terminal demo: npx vibe-check scores project AI-readiness 83/100" />
+</div>
 
 ---
 
@@ -195,10 +173,10 @@ Mutually exclusive items are grouped. Having 4 ESLint config files doesn't give 
 
 | Project | Description |
 |---------|-------------|
-| [**agent-trace**](https://github.com/liangzhengtao/agent-trace) | Visualize and debug AI agent execution traces |
-| [**ai-commit**](https://github.com/liangzhengtao/ai-commit) | `npx ai-commit` — AI writes your commit messages |
-| [**git-format**](https://github.com/liangzhengtao/git-format) | `npx git-format` — Conventional commits, auto-formatted |
-| [**awesome-ai-rules**](https://github.com/liangzhengtao/awesome-ai-rules) | 20 production AI coding rules |
+| [**agent-trace**](https://github.com/Serennity007/agent-trace) | Visualize and debug AI agent execution traces |
+| [**ai-commit**](https://github.com/Serennity007/ai-commit) | `npx ai-commit` — AI writes your commit messages |
+| [**git-format**](https://github.com/Serennity007/git-format) | `npx git-format` — Conventional commits, auto-formatted |
+| [**awesome-ai-rules**](https://github.com/Serennity007/awesome-ai-rules) | 20 production AI coding rules |
 
 ---
 

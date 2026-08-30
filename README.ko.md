@@ -181,9 +181,9 @@ npx gitignore node
 
 | 프로젝트 | 설명 |
 |---------|------|
-| [**awesome-ai-rules**](https://github.com/liangzhengtao/awesome-ai-rules) | 20개 프로덕션 AI 코딩 규칙 |
-| [**ai-commit**](https://github.com/liangzhengtao/ai-commit) | `npx ai-commit` — AI가 커밋 메시지를 작성 |
-| [**awesome-mcp-servers**](https://github.com/liangzhengtao/awesome-mcp-servers) | Cursor, Claude Code, Kimi Code용 MCP 서버 |
+| [**awesome-ai-rules**](https://github.com/Serennity007/awesome-ai-rules) | 20개 프로덕션 AI 코딩 규칙 |
+| [**ai-commit**](https://github.com/Serennity007/ai-commit) | `npx ai-commit` — AI가 커밋 메시지를 작성 |
+| [**awesome-mcp-servers**](https://github.com/Serennity007/awesome-mcp-servers) | Cursor, Claude Code, Kimi Code용 MCP 서버 |
 
 ## 기여하기
 

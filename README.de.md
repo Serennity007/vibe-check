@@ -181,9 +181,9 @@ Sich gegenseitig ausschließende Punkte sind gruppiert. 4 ESLint-Konfigurationsd
 
 | Projekt | Beschreibung |
 |---------|--------------|
-| [**awesome-ai-rules**](https://github.com/liangzhengtao/awesome-ai-rules) | 20 produktionsreife KI-Coding-Regeln |
-| [**ai-commit**](https://github.com/liangzhengtao/ai-commit) | `npx ai-commit` — KI schreibt Ihre Commit-Nachrichten |
-| [**awesome-mcp-servers**](https://github.com/liangzhengtao/awesome-mcp-servers) | MCP-Server für Cursor, Claude Code und Kimi Code |
+| [**awesome-ai-rules**](https://github.com/Serennity007/awesome-ai-rules) | 20 produktionsreife KI-Coding-Regeln |
+| [**ai-commit**](https://github.com/Serennity007/ai-commit) | `npx ai-commit` — KI schreibt Ihre Commit-Nachrichten |
+| [**awesome-mcp-servers**](https://github.com/Serennity007/awesome-mcp-servers) | MCP-Server für Cursor, Claude Code und Kimi Code |
 
 ## Mitwirken
 

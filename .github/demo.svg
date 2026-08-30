@@ -1,0 +1,34 @@
+<svg width="900" height="422" viewBox="0 0 900 422" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Terminal demo: zhengtao@dev — npx vibe-check">
+  <title>zhengtao@dev — npx vibe-check</title>
+  <defs>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00d4ff" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0.06"/>
+    </linearGradient>
+  </defs>
+  <rect x="1.5" y="1.5" width="897" height="419" rx="13" fill="#0c0c14"/>
+  <rect x="1.5" y="1.5" width="897" height="419" rx="13" fill="url(#glow)"/>
+  <rect x="1.5" y="1.5" width="897" height="419" rx="13" fill="none" stroke="#00d4ff" stroke-opacity="0.35" stroke-width="1.5"/>
+  <path d="M22 1.5 h-7 a13.5 13.5 0 0 0 -13.5 13.5 v7 M878 1.5 h7 a13.5 13.5 0 0 1 13.5 13.5 v7 M898.5 400 v7 a13.5 13.5 0 0 1 -13.5 13.5 h-7 M22 420.5 h-7 a13.5 13.5 0 0 1 -13.5 -13.5 v-7" stroke="#00d4ff" stroke-opacity="0.9" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <circle cx="30" cy="22" r="5" fill="#ff5f57"/>
+  <circle cx="49" cy="22" r="5" fill="#febc2e"/>
+  <circle cx="68" cy="22" r="5" fill="#28c840"/>
+  <text x="870" y="26" text-anchor="end" font-family="JetBrains Mono, Consolas, Courier New, monospace" font-size="12" fill="#5d6b82">zhengtao@dev — npx vibe-check</text>
+  <line x1="16" y1="42" x2="884" y2="42" stroke="#ffffff" stroke-opacity="0.08"/>
+  <g font-family="JetBrains Mono, Consolas, Courier New, monospace" font-size="14">
+    <text x="26" y="56" opacity="0"><tspan fill="#00d4ff">$ </tspan><tspan fill="#e8eaf6" font-weight="600">npx vibe-check</tspan><animate attributeName="opacity" values="0;1" begin="0.20s" dur="0.18s" fill="freeze"/></text>
+    <text x="26" y="77" opacity="0"><tspan fill="#8b95a7">Checking your project vibe...</tspan><animate attributeName="opacity" values="0;1" begin="0.50s" dur="0.18s" fill="freeze"/></text>
+    <text x="26" y="98" opacity="0"><tspan fill="#00d4ff" font-weight="600">──── VIBE CHECK RESULTS ─────────────────────</tspan><animate attributeName="opacity" values="0;1" begin="0.80s" dur="0.18s" fill="freeze"/></text>
+    <text x="26" y="140" opacity="0"><tspan fill="#e8eaf6">✦ Score: </tspan><tspan fill="#3fb950" font-weight="600">83/100</tspan><tspan fill="#e8eaf6">   Grade: </tspan><tspan fill="#3fb950" font-weight="600">A</tspan><tspan fill="#8b95a7">   great — minor improvements possible</tspan><animate attributeName="opacity" values="0;1" begin="1.26s" dur="0.18s" fill="freeze"/></text>
+    <text x="26" y="182" opacity="0"><tspan x="30" fill="#e8eaf6">AI Rules Files </tspan><tspan x="208" fill="#8b95a7">[4/6]</tspan><tspan x="268" fill="#00d4ff" font-weight="600">████████</tspan><tspan x="346" fill="#8b95a7">░░</tspan><tspan x="382" fill="#8b95a7">20/26</tspan><animate attributeName="opacity" values="0;1" begin="1.72s" dur="0.18s" fill="freeze"/></text>
+    <text x="26" y="203" opacity="0"><tspan x="30" fill="#e8eaf6">Documentation </tspan><tspan x="208" fill="#8b95a7">[4/4]</tspan><tspan x="268" fill="#00d4ff" font-weight="600">██████████</tspan><tspan x="364" fill="#8b95a7"></tspan><tspan x="382" fill="#8b95a7">15/15</tspan><animate attributeName="opacity" values="0;1" begin="1.94s" dur="0.18s" fill="freeze"/></text>
+    <text x="26" y="224" opacity="0"><tspan x="30" fill="#e8eaf6">Type Safety </tspan><tspan x="208" fill="#8b95a7">[2/3]</tspan><tspan x="268" fill="#e3b341" font-weight="600">██████</tspan><tspan x="328" fill="#8b95a7">░░░░</tspan><tspan x="382" fill="#8b95a7">8/10</tspan><animate attributeName="opacity" values="0;1" begin="2.16s" dur="0.18s" fill="freeze"/></text>
+    <text x="26" y="245" opacity="0"><tspan x="30" fill="#e8eaf6">Testing </tspan><tspan x="208" fill="#8b95a7">[2/5]</tspan><tspan x="268" fill="#e3b341" font-weight="600">████</tspan><tspan x="310" fill="#8b95a7">░░░░░░</tspan><tspan x="382" fill="#8b95a7">6/10</tspan><animate attributeName="opacity" values="0;1" begin="2.38s" dur="0.18s" fill="freeze"/></text>
+    <text x="26" y="266" opacity="0"><tspan x="30" fill="#e8eaf6">Code Quality </tspan><tspan x="208" fill="#8b95a7">[3/4]</tspan><tspan x="268" fill="#00d4ff" font-weight="600">████████</tspan><tspan x="346" fill="#8b95a7">░░</tspan><tspan x="382" fill="#8b95a7">8/10</tspan><animate attributeName="opacity" values="0;1" begin="2.60s" dur="0.18s" fill="freeze"/></text>
+    <text x="26" y="287" opacity="0"><tspan x="30" fill="#e8eaf6">Git &amp; CI/CD </tspan><tspan x="208" fill="#8b95a7">[3/4]</tspan><tspan x="268" fill="#00d4ff" font-weight="600">█████████</tspan><tspan x="355" fill="#8b95a7">░</tspan><tspan x="382" fill="#8b95a7">9/10</tspan><animate attributeName="opacity" values="0;1" begin="2.82s" dur="0.18s" fill="freeze"/></text>
+    <text x="26" y="308" opacity="0"><tspan x="30" fill="#e8eaf6">Dependencies </tspan><tspan x="208" fill="#8b95a7">[2/3]</tspan><tspan x="268" fill="#e3b341" font-weight="600">████</tspan><tspan x="310" fill="#8b95a7">░░░░░░</tspan><tspan x="382" fill="#8b95a7">4/10</tspan><animate attributeName="opacity" values="0;1" begin="3.04s" dur="0.18s" fill="freeze"/></text>
+    <text x="26" y="350" opacity="0"><tspan fill="#8b95a7">▸ Fix AI rules files → </tspan><tspan fill="#3fb950" font-weight="600">+6 pts</tspan><tspan fill="#8b95a7">   Add TypeScript → </tspan><tspan fill="#3fb950" font-weight="600">+2 pts</tspan><animate attributeName="opacity" values="0;1" begin="3.42s" dur="0.18s" fill="freeze"/></text>
+    <text x="26" y="371" opacity="0"><tspan fill="#00d4ff">$ </tspan><tspan fill="#e8eaf6"></tspan><animate attributeName="opacity" values="0;1" begin="3.72s" dur="0.18s" fill="freeze"/></text>
+  </g>
+  <rect x="52" y="359" width="8" height="15" fill="#00d4ff"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/></rect>
+</svg>

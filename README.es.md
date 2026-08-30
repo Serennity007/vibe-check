@@ -181,9 +181,9 @@ Los elementos mutuamente excluyentes se agrupan. Tener 4 archivos de configuraci
 
 | Proyecto | Descripción |
 |---------|-------------|
-| [**awesome-ai-rules**](https://github.com/liangzhengtao/awesome-ai-rules) | 20 reglas de codificación con IA para producción |
-| [**ai-commit**](https://github.com/liangzhengtao/ai-commit) | `npx ai-commit` — La IA escribe tus mensajes de commit |
-| [**awesome-mcp-servers**](https://github.com/liangzhengtao/awesome-mcp-servers) | Servidores MCP para Cursor, Claude Code y Kimi Code |
+| [**awesome-ai-rules**](https://github.com/Serennity007/awesome-ai-rules) | 20 reglas de codificación con IA para producción |
+| [**ai-commit**](https://github.com/Serennity007/ai-commit) | `npx ai-commit` — La IA escribe tus mensajes de commit |
+| [**awesome-mcp-servers**](https://github.com/Serennity007/awesome-mcp-servers) | Servidores MCP para Cursor, Claude Code y Kimi Code |
 
 ## Contribuir
 

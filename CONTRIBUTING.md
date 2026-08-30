@@ -7,7 +7,7 @@ Thank you for your interest in contributing to Vibe Check!
 ### 1. Fork and Clone
 
 ```bash
-git clone https://github.com/liangzhengtao/vibe-check.git
+git clone https://github.com/Serennity007/vibe-check.git
 cd vibe-check
 npm install
 ```

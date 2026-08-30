@@ -181,9 +181,9 @@ npx gitignore node
 
 | المشروع | الوصف |
 |---------|-------|
-| [**awesome-ai-rules**](https://github.com/liangzhengtao/awesome-ai-rules) | 20 قاعدة برمجة AI جاهزة للإنتاج |
-| [**ai-commit**](https://github.com/liangzhengtao/ai-commit) | `npx ai-commit` — AI يكتب رسائل الإيداع |
-| [**awesome-mcp-servers**](https://github.com/liangzhengtao/awesome-mcp-servers) | خوادم MCP لـ Cursor، Claude Code، و Kimi Code |
+| [**awesome-ai-rules**](https://github.com/Serennity007/awesome-ai-rules) | 20 قاعدة برمجة AI جاهزة للإنتاج |
+| [**ai-commit**](https://github.com/Serennity007/ai-commit) | `npx ai-commit` — AI يكتب رسائل الإيداع |
+| [**awesome-mcp-servers**](https://github.com/Serennity007/awesome-mcp-servers) | خوادم MCP لـ Cursor، Claude Code، و Kimi Code |
 
 ## المساهمة
 
